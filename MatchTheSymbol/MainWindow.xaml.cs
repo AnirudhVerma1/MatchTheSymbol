@@ -94,18 +94,6 @@ namespace MatchTheSymbol
             }
         }
 
-        /*
-        private void TimeTextBlock_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (pairsMatched == 10)
-            {
-                timeTextBlock.Text = "0.0s";
-                tenthOfSecondsElapsed = 0;
-                pairsMatched = 0;
-                SetUpGame();
-            }
-        }
-        */
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             if (pairsMatched == 10)
